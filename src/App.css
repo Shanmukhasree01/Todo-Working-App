@@ -1,0 +1,33 @@
+input {
+  width: 100%;
+  display: inline-block;
+  font-family: "arial";
+  font-size: 24px;
+}
+
+input,
+.typed {
+  overflow: visible;
+  white-space: nowrap;
+  width: 100%;
+  animation: typing 1.5s steps(100, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.delete_Button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid black;
+  min-width: 80px;
+}
+
+.row-container {
+  margin: 10px 5px;
+}
